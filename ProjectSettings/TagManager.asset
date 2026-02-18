@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Logic
+  - Audio
+  - Star
+  - Pipe
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - flapCat
+  - Water
+  - UI
+  - Star
+  - middle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 8337853
+    locked: 0
+  - name: FlapCat
+    uniqueID: 1060197693
+    locked: 0
+  - name: Pipe Spawner
+    uniqueID: 4158161555
+    locked: 0
+  - name: Game Over Screen
+    uniqueID: 112803883
+    locked: 0
+  m_RenderingLayers:
+  - Default
