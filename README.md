@@ -52,6 +52,18 @@ This project was developed as a personal portfolio project to practice game deve
 
 ---
 
+## Screenshots
+![Menu Screen](Screenshots/Menu.png)  
+*Main menu with Play, Settings, Info (at the top right corner) and Exit*
+
+![Gameplay](Screenshots/GamePlay.png)  
+*Nyan Cat avoiding pipes and collecting stars*
+
+![Game Over Screen](Screenshots/GameOver.png)  
+*Score tracking and high score display*
+
+---
+
 ## Project Status
 
 This project is actively being improved. Future updates may include:  
