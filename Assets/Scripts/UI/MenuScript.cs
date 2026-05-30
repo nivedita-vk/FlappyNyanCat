@@ -4,11 +4,15 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
     public GameObject infoPanel;
+    public GameObject exitButton;
     public SettingsScript settingsPanelScript;
 
     private void Start()
     {
         AudioScript.Instance.Load();
+        #if UNITY_WEBGL
+            exitButton.SetActive(false);
+        #endif
     }
     public void GoToGame()
     {
