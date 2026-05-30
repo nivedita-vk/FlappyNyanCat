@@ -5,7 +5,7 @@ Guide Nyan Cat through pipes, avoid collisions, collect stars, and try to beat y
 
 This project was developed as a personal portfolio project to practice game development, Unity systems, and C# scripting.
 
-🎮 [Play in Browser](https://nivedi06.itch.io/flappy-nyan-cat)
+🎮 <a href="https://nivedi06.itch.io/flappy-nyan-cat" target="_blank">Play in Browser</a>
 
 ---
 
