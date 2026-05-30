@@ -52,7 +52,7 @@ public class LogicScript : MonoBehaviour
 
     public void RestartGame()
     {
-
+        AudioScript.Instance.PlayBGM();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
