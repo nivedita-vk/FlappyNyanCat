@@ -561,7 +561,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf0c488ca1029b40bca6dca7d364c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioTrackScript
-  tracks: 0
 --- !u!4 &167912680
 Transform:
   m_ObjectHideFlags: 0
@@ -3687,6 +3686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   infoPanel: {fileID: 102413524}
+  exitButton: {fileID: 1570286307}
   settingsPanelScript: {fileID: 0}
 --- !u!1 &1548951472
 GameObject:
@@ -5099,12 +5099,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

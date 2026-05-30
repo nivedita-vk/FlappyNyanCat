@@ -19,7 +19,7 @@ public class FlapCatScript : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space) && birdIsAlive && LogicScript.Instance.IsGamePlaying())
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && birdIsAlive && LogicScript.Instance.IsGamePlaying())
         {
             
             myRigidBody.linearVelocity = Vector2.up * flapStrength;
