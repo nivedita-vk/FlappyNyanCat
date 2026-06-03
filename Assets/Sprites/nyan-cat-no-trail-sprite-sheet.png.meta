@@ -1,34 +1,25 @@
 fileFormatVersion: 2
-guid: 9fdc12d8f031cf2439ca1bd451143030
+guid: 7d0706b6390c0c44d899197763f86bf9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -868411361075201775
-    second: nyan-cat_0
+      213: -2188509278501541157
+    second: nyan-cat-no-trail-sprite-sheet_0
   - first:
-      213: 1355019431568149991
-    second: nyan-cat_1
+      213: -8471245574024727729
+    second: nyan-cat-no-trail-sprite-sheet_1
   - first:
-      213: -1326382590522492712
-    second: nyan-cat_2
+      213: -7040639661587199746
+    second: nyan-cat-no-trail-sprite-sheet_2
   - first:
-      213: 7811864248825104328
-    second: nyan-cat_3
+      213: -6473904805191066159
+    second: nyan-cat-no-trail-sprite-sheet_3
   - first:
-      213: 3907924102332943891
-    second: nyan-cat_4
+      213: -5915056922474045950
+    second: nyan-cat-no-trail-sprite-sheet_4
   - first:
-      213: 3218526831219174506
-    second: nyan-cat_5
-  - first:
-      213: 2788291018176071994
-    second: nyan-cat_6
-  - first:
-      213: -431902125717327474
-    second: nyan-cat_7
-  - first:
-      213: 1826682257798866416
-    second: nyan-cat_8
+      213: 370521886619129564
+    second: nyan-cat-no-trail-sprite-sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,155 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nyan-cat_0
+      name: nyan-cat-no-trail-sprite-sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 197
-        height: 96
+        x: 8
+        y: 28
+        width: 238
+        height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 119f238d778c2f3f0800000000000000
-      internalID: -868411361075201775
+      spriteID: bdae44b086ad0a1e0800000000000000
+      internalID: -2188509278501541157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nyan-cat_1
+      name: nyan-cat-no-trail-sprite-sheet_1
       rect:
         serializedVersion: 2
-        x: 198
-        y: 0
-        width: 200
-        height: 96
+        x: 267
+        y: 28
+        width: 245
+        height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ed0f5a6efefdc210800000000000000
-      internalID: 1355019431568149991
+      spriteID: f43f7237807107a80800000000000000
+      internalID: -8471245574024727729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nyan-cat_2
+      name: nyan-cat-no-trail-sprite-sheet_2
       rect:
         serializedVersion: 2
-        x: 398
-        y: 0
-        width: 196
-        height: 96
+        x: 526
+        y: 21
+        width: 245
+        height: 149
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d8f4a7bf0eb79de0800000000000000
-      internalID: -1326382590522492712
+      spriteID: ef8819bd78f9a4e90800000000000000
+      internalID: -7040639661587199746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nyan-cat_3
+      name: nyan-cat-no-trail-sprite-sheet_3
       rect:
         serializedVersion: 2
-        x: 594
-        y: 0
-        width: 206
-        height: 96
+        x: 785
+        y: 21
+        width: 245
+        height: 149
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c74bc03521596c60800000000000000
-      internalID: 7811864248825104328
+      spriteID: 1dd54e041e11826a0800000000000000
+      internalID: -6473904805191066159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nyan-cat_4
+      name: nyan-cat-no-trail-sprite-sheet_4
       rect:
         serializedVersion: 2
-        x: 800
-        y: 0
-        width: 200
-        height: 96
+        x: 1036
+        y: 21
+        width: 245
+        height: 149
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31e0eb8144cbb3630800000000000000
-      internalID: 3907924102332943891
+      spriteID: 20e18bd711f79eda0800000000000000
+      internalID: -5915056922474045950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nyan-cat_5
+      name: nyan-cat-no-trail-sprite-sheet_5
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 200
-        height: 96
+        x: 1303
+        y: 21
+        width: 237
+        height: 149
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6ce1eab9118aac20800000000000000
-      internalID: 3218526831219174506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nyan-cat_6
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 200
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a390cc478eff1b620800000000000000
-      internalID: 2788291018176071994
+      spriteID: cd6d07951bb542500800000000000000
+      internalID: 370521886619129564
       vertices: []
       indices: 
       edges: []
@@ -294,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 79fb03f08439bd74b9531b185c1b4882
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -302,17 +271,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      nyan-cat_0: -868411361075201775
-      nyan-cat_1: 1355019431568149991
-      nyan-cat_2: -1326382590522492712
-      nyan-cat_3: 7811864248825104328
-      nyan-cat_4: 3907924102332943891
-      nyan-cat_5: 3218526831219174506
-      nyan-cat_6: 2788291018176071994
+      nyan-cat-no-trail-sprite-sheet_0: -2188509278501541157
+      nyan-cat-no-trail-sprite-sheet_1: -8471245574024727729
+      nyan-cat-no-trail-sprite-sheet_2: -7040639661587199746
+      nyan-cat-no-trail-sprite-sheet_3: -6473904805191066159
+      nyan-cat-no-trail-sprite-sheet_4: -5915056922474045950
+      nyan-cat-no-trail-sprite-sheet_5: 370521886619129564
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
