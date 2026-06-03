@@ -14,6 +14,7 @@ public class FlapCatScript : MonoBehaviour
     [SerializeField] private float deathZoneY = -16.04f;
 
     public bool birdIsAlive = true;
+    public GameObject rainbowTrailPrefab;
     
    
     void Update()
@@ -33,7 +34,7 @@ public class FlapCatScript : MonoBehaviour
             LogicScript.Instance.GameOver();
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape) && birdIsAlive)
+        if((Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P)) && birdIsAlive)
         {
             if(LogicScript.Instance.gameIsPaused && LogicScript.Instance.IsGamePaused())
             {

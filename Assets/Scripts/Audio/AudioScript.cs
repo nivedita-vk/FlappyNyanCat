@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AudioScript : MonoBehaviour
 {
@@ -27,6 +28,9 @@ public class AudioScript : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+
+            // When any scene finishes loading, automatically register to run button listener setup
+            SceneManager.sceneLoaded += OnSceneLoaded; // += here means attach this funtion to the event list
         }
         else
         {
@@ -34,15 +38,35 @@ public class AudioScript : MonoBehaviour
             return;
         }
     }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        AssignButtonSounds();
+    }
     private void Start()
+    {
+        AssignButtonSounds(); 
+    }
+
+    private void AssignButtonSounds()
     {
         Button[] buttons = FindObjectsByType<Button>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
-        foreach(Button button in buttons)
+        foreach (Button button in buttons)
         {
-            ButtonSoundPlayer soundPlayer = button.AddComponent<ButtonSoundPlayer>(); // attaches ButtonSoundPlayer component to button and returns that component as reference to call intialize method
+            // check if the script was already added to prevent adding duplicate components
+            ButtonSoundPlayer soundPlayer = button.GetComponent<ButtonSoundPlayer>();
+            if (soundPlayer == null)
+            {
+                soundPlayer = button.AddComponent<ButtonSoundPlayer>(); // attaching the ButtonSoundPlayerComponent with the audio script
+            }
             soundPlayer.Initialize(sfxSource, buttonSfx);
         }
+    }
+
+    private void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded; // once scene is destroyed, detach funtion from event list
     }
     public enum Tracks
     {

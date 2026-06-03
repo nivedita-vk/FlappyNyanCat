@@ -229,7 +229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8199fbef3563dd1448ca1d24cfc77890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  logic: {fileID: 0}
 --- !u!1 &5188412830140611346
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,8 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3074fd85bcd68a849976a44fd606b8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PipeMoveScript
-  deadZone: -181
-  logic: {fileID: 0}
+  despawnX: -181
 --- !u!223 &3461681512180600273
 Canvas:
   m_ObjectHideFlags: 0
@@ -456,7 +454,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1764169625152905025, guid: 3958e25ff4ccce74a9c39930ec802138, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.72
+      value: 8.4
       objectReference: {fileID: 0}
     - target: {fileID: 1764169625152905025, guid: 3958e25ff4ccce74a9c39930ec802138, type: 3}
       propertyPath: m_LocalPosition.y
