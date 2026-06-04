@@ -11,7 +11,7 @@ This project was developed as a personal portfolio project to practice game deve
 
 ## 🎮 Gameplay Preview
 
-![Flappy Nyan Cat Gameplay](Screenshots/FlappyNyanCat-demo.gif)  
+![Flappy Nyan Cat Gameplay](Screenshots/flappyNyanCat-demo.gif)  
 *Demonstration of gameplay, settings access, and UI navigation.*
 
 ---
